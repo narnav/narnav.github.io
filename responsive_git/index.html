@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Responsive test</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+  
+    <body> 
+            <h1 style="font-size:10vw">Hello World</h1>
+
+        <img src="IMG_2512.JPG" style="max-width:100%;height:auto;">
+
+        <input id="Button3" type="button" value="button" onclick="alert('heelo world')"/>
+<a href="HtmlPage2.html">HtmlPage2.html</a> 
+        <div id="demo"></div>
+        Book: <input id="txtTitle" type="text"  /> 
+       Price: <input id="txtPrice" type="text" />
+        <script type="text/javascript">
+            var pos = 0;
+            var count = 0;
+            var txtTitle = document.getElementById("txtTitle");
+            var txtPrice = document.getElementById("txtPrice");
+            var xmlDoc, xmlhttp;
+            xmlhttp = new XMLHttpRequest();
+            xmlhttp.open("GET", "books.XML", false);
+            xmlhttp.send(null);
+            if (xmlhttp.status == 200) {
+                xmlDoc = xmlhttp.responseXML;
+                count = xmlDoc.getElementsByTagName("book").length;
+            }
+
+           
+            function displayUpd(pos) {
+                txtTitle.value = xmlDoc.getElementsByTagName("book")[pos].getElementsByTagName("title")[0].textContent;
+                txtPrice.value = xmlDoc.getElementsByTagName("book")[pos].getElementsByTagName("price")[0].textContent;
+            }
+            
+
+            function goNext() {
+                if (pos < count-1) {
+                pos++;
+                displayUpd(pos);
+                }
+               
+            }
+            function goPrev() {
+                if (pos > 0) {
+                    pos--;
+                    displayUpd(pos);
+                }
+            }
+
+        </script>
+       
+
+        <input id="Button1" type="button" value="next" onclick="goNext()"/>
+        <input id="Button2" type="button" value="prev" onclick="goPrev()"/>
+       
+
+    </body>
+</html>
