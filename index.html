@@ -28,7 +28,7 @@
             var txtPrice = document.getElementById("txtPrice");
             var xmlDoc, xmlhttp;
             xmlhttp = new XMLHttpRequest();
-            xmlhttp.open("GET", "books.XML", false);
+            xmlhttp.open("GET", "https://narnav.github.io/books.xml", false);
             xmlhttp.send(null);
             if (xmlhttp.status == 200) {
                 xmlDoc = xmlhttp.responseXML;
