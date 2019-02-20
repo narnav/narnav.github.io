@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 
-  <body style="background-color: darkslategrey">
+  <body style="background-color: darkslategrey;font-size:10vw">
     <h1 style="font-size:10vw">Hello World</h1>
     <a href="respons.html">respons.html</a>
     <img src="IMG_2512.JPG" style="max-width:100%;height:auto;" />
@@ -16,14 +16,16 @@
       id="Button3"
       type="button"
       value="button"
-      onclick="alert('heelo world')"
+      onclick="alert('Hello world')"
     />
-    <a href="HtmlPage2.html">HtmlPage2.html</a>
+    <a href="HtmlPage2.html">test</a>
     <div id="demo" style="width: 50%">
-      First name: <input id="txtTitle" type="text" /> Price: Last Name<input
+      First name: <input id="txtTitle" type="text" /> Last Name<input
         id="txtPrice"
         type="text"
       />
+      <input id="Button1" type="button" value="next" onclick="goNext()" />
+      <input id="Button2" type="button" value="prev" onclick="goPrev()" />
     </div>
     <script type="text/javascript">
       var pos = 0;
@@ -61,9 +63,5 @@
         }
       }
     </script>
-    <div style="width: 50%">
-      <input id="Button1" type="button" value="next" onclick="goNext()" />
-      <input id="Button2" type="button" value="prev" onclick="goPrev()" />
-    </div>
   </body>
 </html>
