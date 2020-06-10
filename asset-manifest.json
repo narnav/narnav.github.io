@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/narnav.github.io/static/css/main.5f361e03.chunk.css",
+    "main.js": "/narnav.github.io/static/js/main.c35a9856.chunk.js",
+    "main.js.map": "/narnav.github.io/static/js/main.c35a9856.chunk.js.map",
+    "runtime-main.js": "/narnav.github.io/static/js/runtime-main.39ab1521.js",
+    "runtime-main.js.map": "/narnav.github.io/static/js/runtime-main.39ab1521.js.map",
+    "static/js/2.c1287597.chunk.js": "/narnav.github.io/static/js/2.c1287597.chunk.js",
+    "static/js/2.c1287597.chunk.js.map": "/narnav.github.io/static/js/2.c1287597.chunk.js.map",
+    "index.html": "/narnav.github.io/index.html",
+    "precache-manifest.4a3df3bebc86dcb7c2cd76ee75e33690.js": "/narnav.github.io/precache-manifest.4a3df3bebc86dcb7c2cd76ee75e33690.js",
+    "service-worker.js": "/narnav.github.io/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/narnav.github.io/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.c1287597.chunk.js.LICENSE.txt": "/narnav.github.io/static/js/2.c1287597.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/narnav.github.io/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.39ab1521.js",
+    "static/js/2.c1287597.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.c35a9856.chunk.js"
+  ]
+}
