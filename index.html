@@ -1,33 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Financial analyst</title>
-    <meta name="Financial" content="Financial analyst and gathering" />
-    <meta name="google" content="notranslate" />
-    <meta name="categories" content="crypto , stocks ,options" />
- 
-      
-<script>
-  location.replace("https://ndsamp4.firebaseapp.com/")
+    <title>Finace Guide</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="keywords"
+      content="finance, stocks, options, bonds, risk management, money, crypto "
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.15.3/firebase-app.js"></script>
 
-    </script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+      /* Remove the navbar's default margin-bottom and rounded borders */
+      .navbar {
+        margin-bottom: 0;
+        border-radius: 0;
+      }
+
+      /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+      .row.content {
+        height: 450px;
+      }
+
+      /* Set gray background color and 100% height */
+      .sidenav {
+        padding-top: 20px;
+        background-color: #f1f1f1;
+        height: 100%;
+      }
+
+      /* Set black background color, white text and some padding */
+      footer {
+        background-color: #555;
+        color: white;
+        padding: 15px;
+      }
+
+      /* On small screens, set height to 'auto' for sidenav and grid */
+      @media screen and (max-width: 767px) {
+        .sidenav {
+          height: auto;
+          padding: 15px;
+        }
+        .row.content {
+          height: auto;
+        }
+      }
+    </style>
+    <script src="base.js"></script>
   </head>
   <body>
-    TLV:
-    <a
-      href="https://info.tase.co.il/Heb/about_tase/corporate/Pages/tel_aviv_stock_exchange.aspx"
-      >TLV</a
-    ><br />
-    US: Crypto:
-    <a href="https://www.coinbase.com/price/bitcoin">Bit Price</a>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"
+            ><a href="index.html"> <img src="Logo.png" width="17%" /></a
+          ></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="About.html" target="main">About</a></li>
+            <li><a href="Projects.html" target="main">Projects</a></li>
+            <li><a href="contact.html" target="main">Contact</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="Login.html" target="main"
+                ><span class="glyphicon glyphicon-log-in"></span> Login</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-    <div width="500" height="700">
-      <h1>Test</h1>
-      
-      
-     <script data-ad-client="ca-pub-9763541224062605" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div class="container-fluid text-center">
+      <div class="row content">
+        <div class="col-sm-2 sidenav">
+          <h3>
+            <p>
+              <a href="https://www.ibi.co.il/" class="btn btn-info"
+                >IBI - poor broker</a
+              >
+            </p>
+            <p>
+              <a
+                href="https://www.interactivebrokers.com/"
+                class="btn btn-success"
+                >Excel Broker</a
+              >
+            </p>
+            <p>
+              <a href="https://www.deribit.com" class="btn btn-success"
+                >Crypto broker</a
+              >
+            </p>
+            <p>
+              <a href="https://crypto.com/" class="btn btn-success"
+                >Buy Crypto</a
+              >
+            </p>
+          </h3>
+        </div>
+        <div class="col-sm-8 text-left">
+          <h1>Welcome</h1>
+          <p>
+            This site will guide you how to avoid poor brokers and how to find
+            good stocks
+          </p>
+          <hr />
+          <h3>Risk Discloser</h3>
+          <p>
+            <iframe
+              name="main"
+              src="Risk_Disclsoer.html"
+              name="iframe_a"
+              width="100%"
+              height="500px"
+            ></iframe>
+          </p>
+        </div>
+        <div class="col-sm-2 sidenav">
+          <div class="well">
+            <p>
+              <script
+                data-ad-client="ca-pub-9763541224062605"
+                async
+                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+              ></script>
+            </p>
+          </div>
+          <div class="well">
+            <p>
+              <script
+                data-ad-client="ca-pub-9763541224062605"
+                async
+                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+              ></script>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <footer class="container-fluid text-center">
+      <p>
+        <a href="www.cboe.com">cboe - Chicago Board Options Exchange</a>|
+        <a
+          href="https://www.deribit.com/pages/information/affiliate-program-terms"
+          >Affilate program</a
+        >|
+        <a href="https://www.deribit.com/pages/docs/portfoliomargin"
+          >Portfolio Margin</a
+        >
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email" />
+        <input type="submit" class="btn btn-info" />
+      </p>
+    </footer>
   </body>
 </html>
+test
